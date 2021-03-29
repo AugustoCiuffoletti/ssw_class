@@ -10,6 +10,7 @@ class miaClasse {
     }
 };
 var X = new miaClasse() ;
-X.f1 = "Hello";
-X.f2=1/3;
+var a = "Hallo";
+X.f1 = a;
+X.f2 = a;
 console.log(X)
